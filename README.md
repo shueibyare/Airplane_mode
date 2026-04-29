@@ -1,5 +1,52 @@
 ### Airplane Mode
 
+Airplane Mode – Airline Management System
+Project Overview
+Airplane Mode is a Frappe-based airline management system that simulates real-world flight booking and operations. It manages airplanes, flights, passengers, tickets, and add-ons while demonstrating core ERP concepts such as document modeling, workflows, and server-side business logic.
+The project was built as part of a Frappe development exercise to demonstrate practical backend engineering skills, data modeling, and business process automation.
+---
+Features
+Flight Management
+- Create and manage airplanes and flight schedules
+- Track flight source, destination, and timings
+- Flight status workflow (Draft → Boarded → Completed)
+Ticket Booking System
+- Book tickets linked to specific flights
+- Automatic seat assignment (e.g. `21A`, `88E`)
+- Passenger management
+Add-ons System
+- Support for multiple add-ons per ticket (e.g. meals, seat selection)
+- Dynamic pricing based on selected add-ons
+- Child table implementation for flexible add-ons
+Pricing Logic
+- Flight price + add-ons = total ticket amount
+- Automatic recalculation using server-side controllers
+Business Rules
+- Prevent invalid ticket submission based on flight status
+- Ensure data consistency using validation hooks
+- Remove duplicate add-ons per ticket
+Data Migration
+- Patch system to populate missing seat data for existing tickets
+---
+Tech Stack
+
+- Frappe Framework (v15)
+- Python
+- MariaDB
+- JavaScript (Frappe Client Scripts)
+- Bench CLI
+---
+System Architecture
+
+```text
+Airplane
+   ↓
+Airplane Flight
+   ↓
+Airplane Ticket
+   ↓
+Add-ons (Child Table)
+
 Working with DocTypes
 
 ### Installation
