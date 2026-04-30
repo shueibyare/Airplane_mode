@@ -1,5 +1,32 @@
-### Airplane Mode
+Frappe core concepts
+Frappe a model-driven framework where data structure, business logic, and UI are defined in a unified way.
 
+DocTypes
+Used DocTypes to define core entities such as Items, Warehouses, and Stock Entries
+Each DocType represents a data model with built-in UI and API support
+Implemented relationships using Link fields and Child Tables
+Documents
+Managed system records as Documents (instances of DocTypes)
+Example: Each stock transaction is stored as a document
+
+Fields & Relationships
+Defined structured data using field types like Data, Int, Date
+Used:
+Link fields for relationships between DocTypes
+Child Tables for one-to-many relationships
+
+Business Logic (Controllers)
+Implemented backend logic using Python controllers
+Used standard methods such as:
+validate
+before_save
+on_submit
+Automated calculations and enforced data integrity
+
+
+<img width="947" height="402" alt="Airplane Flight" src="https://github.com/user-attachments/assets/148d319f-2170-46f3-a5f9-1dc013d229d8" />
+
+### Airplane Mode
 Airplane Mode – Airline Management System
 Project Overview
 Airplane Mode is a Frappe-based airline management system that simulates real-world flight booking and operations. It manages airplanes, flights, passengers, tickets, and add-ons while demonstrating core ERP concepts such as document modeling, workflows, and server-side business logic.
