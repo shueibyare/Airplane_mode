@@ -25,6 +25,11 @@ Automated calculations and enforced data integrity
 
 
 <img width="947" height="402" alt="Airplane Flight" src="https://github.com/user-attachments/assets/148d319f-2170-46f3-a5f9-1dc013d229d8" />
+<img width="953" height="425" alt="Link doc result" src="https://github.com/user-attachments/assets/d16fc671-9641-4793-b45e-bb490149a899" />
+<img width="952" height="415" alt="adds_on_data" src="https://github.com/user-attachments/assets/94786158-e8fc-41ad-8144-be6d4c9c9ccf" />
+<img width="941" height="401" alt="fetch" src="https://github.com/user-attachments/assets/2e7e35d9-cbbe-4863-bd08-d84aae816666" />
+
+
 
 ### Airplane Mode
 Airplane Mode – Airline Management System
